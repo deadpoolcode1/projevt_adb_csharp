@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AdvancedSharpAdbClient" Version="2.5.2" />
+    <PackageReference Include="Managed.Adb" Version="2.0.131.13916" />
+    <PackageReference Include="morelinq" Version="3.3.2" />
+    <PackageReference Include="SharpAdbClient" Version="2.3.23" />
+  </ItemGroup>
+
+</Project>
